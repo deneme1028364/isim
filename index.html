@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLODWHITE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #2c3e50;
+            background: linear-gradient(45deg, #e74c3c, #3498db, #2ecc71);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 20px;
+            animation: textAnimation 3s infinite;
+        }
+
+        @keyframes textAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .description {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .message-box {
+            margin-top: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #ecf0f1;
+        }
+
+        .message-box p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .message-box .author {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BLODWHITE</h1>
+        <div class="description">
+            <p>Merhaba, sitemize hoş geldiniz! Burada çeşitli bilgiler ve mesajlar paylaşılacaktır.</p>
+        </div>
+
+        <div class="buttons">
+            <!-- Doğrudan dış URL'lere yönlendiren linkler -->
+            <a href="https://www.example.com/hakkinda" target="_blank"><button class="btn">Hakkında</button></a>
+            <a href="https://www.example.com/mesajlar" target="_blank"><button class="btn">Mesajlar</button></a>
+        </div>
+
+        <div class="message-box">
+            <div class="author">Kullanıcı 1</div>
+            <p>Bu site çok havalı görünüyor! İçerikler gerçekten dikkat çekici.</p>
+        </div>
+
+        <div class="message-box">
+            <div class="author">Kullanıcı 2</div>
+            <p>Hakkında kısmı daha detaylı olmalı ama genel tasarım çok hoş.</p>
+        </div>
+    </div>
+</body>
+</html>
